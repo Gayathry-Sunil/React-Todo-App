@@ -1,0 +1,38 @@
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #1e1e1e; /* Dark background */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #444; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 400px; /* Max width */
+    color: #ffffff; /* White text */
+    text-align: center; /* Centered text */
+  }
+  
+  .modal button {
+    background-color: #ff4081; /* Accent color for buttons */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 5px; /* Spacing between buttons */
+    transition: background-color 0.3s; /* Transition for hover effect */
+  }
+  
+  .modal button:hover {
+    background-color: #e91e63; /* Darker shade on hover */
+  }
+  
